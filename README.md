@@ -1,6 +1,6 @@
 Just out of curiosity, I ran a quick and dirty benchmark running the 4-step SDXL-Lightning actually running 7 steps.
 
-I ran these on Modal using both an L4 and an A10G, and the A10 was about 20% faster on average. The A10 has 2x the memory bandwidth and 3.3% more tensor compute. Given that these models are compute bound, the A10 speed uo could be attributed to slightly higher compute and ?
+I ran these on Modal using both an L4 and an A10G, and the A10 was about 20% faster on average. The A10 has 2x the memory bandwidth and 3.3% more tensor compute. Given that these models are compute bound, the A10 speed up could be attributed to slightly higher compute and ?
 
 **A10** (FP16 Tensor Core - 250 teraFLOPS\*)
 - Average inference time: 1.684442165090909
